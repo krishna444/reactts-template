@@ -1,0 +1,26 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {   
+    "build":"tsc", 
+    "client": "cd ../client && yarn start",
+    "server": "nodemon",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "author": "Krishna Paudel",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.2",
+    "nodemon": "^1.18.9",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
