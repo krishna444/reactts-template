@@ -1,0 +1,7 @@
+{"files.watcherExclude": {
+    "**/client/node_modules/**": true,
+    "**/client/public/**": true,
+    "**/client/src/static/**":true,
+    "**/server/node_modules/**": true
+  }
+}
